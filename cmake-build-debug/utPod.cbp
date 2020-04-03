@@ -88,13 +88,13 @@
 		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/Song.h">
 			<Option target="utPod"/>
 		</Unit>
-		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/utPod.cpp">
+		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/UtPod.cpp">
 			<Option target="utPod"/>
 		</Unit>
-		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/utPod.h">
+		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/UtPod.h">
 			<Option target="utPod"/>
 		</Unit>
-		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/utPod_driver.cpp">
+		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/UtPod_Driver.cpp">
 			<Option target="utPod"/>
 		</Unit>
 		<Unit filename="C:/Users/nu432/OneDrive/Desktop/Spring 2020/EE312/Assignments/utPod/CMakeLists.txt">

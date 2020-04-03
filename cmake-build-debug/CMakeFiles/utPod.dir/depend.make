@@ -5,10 +5,10 @@ CMakeFiles/utPod.dir/Song.cpp.obj: ../Song.cpp
 CMakeFiles/utPod.dir/Song.cpp.obj: ../Song.h
 
 CMakeFiles/utPod.dir/utPod.cpp.obj: ../Song.h
+CMakeFiles/utPod.dir/utPod.cpp.obj: ../UtPod.cpp
 CMakeFiles/utPod.dir/utPod.cpp.obj: ../UtPod.h
-CMakeFiles/utPod.dir/utPod.cpp.obj: ../utPod.cpp
 
 CMakeFiles/utPod.dir/utPod_driver.cpp.obj: ../Song.h
 CMakeFiles/utPod.dir/utPod_driver.cpp.obj: ../UtPod.h
-CMakeFiles/utPod.dir/utPod_driver.cpp.obj: ../utPod_driver.cpp
+CMakeFiles/utPod.dir/utPod_driver.cpp.obj: ../UtPod_Driver.cpp
 

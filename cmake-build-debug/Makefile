@@ -149,59 +149,59 @@ Song.cpp.s:
 	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/Song.cpp.s
 .PHONY : Song.cpp.s
 
-utPod.obj: utPod.cpp.obj
+UtPod.obj: UtPod.cpp.obj
 
-.PHONY : utPod.obj
-
-# target to build an object file
-utPod.cpp.obj:
-	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/utPod.cpp.obj
-.PHONY : utPod.cpp.obj
-
-utPod.i: utPod.cpp.i
-
-.PHONY : utPod.i
-
-# target to preprocess a source file
-utPod.cpp.i:
-	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/utPod.cpp.i
-.PHONY : utPod.cpp.i
-
-utPod.s: utPod.cpp.s
-
-.PHONY : utPod.s
-
-# target to generate assembly for a file
-utPod.cpp.s:
-	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/utPod.cpp.s
-.PHONY : utPod.cpp.s
-
-utPod_driver.obj: utPod_driver.cpp.obj
-
-.PHONY : utPod_driver.obj
+.PHONY : UtPod.obj
 
 # target to build an object file
-utPod_driver.cpp.obj:
-	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/utPod_driver.cpp.obj
-.PHONY : utPod_driver.cpp.obj
+UtPod.cpp.obj:
+	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/UtPod.cpp.obj
+.PHONY : UtPod.cpp.obj
 
-utPod_driver.i: utPod_driver.cpp.i
+UtPod.i: UtPod.cpp.i
 
-.PHONY : utPod_driver.i
+.PHONY : UtPod.i
 
 # target to preprocess a source file
-utPod_driver.cpp.i:
-	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/utPod_driver.cpp.i
-.PHONY : utPod_driver.cpp.i
+UtPod.cpp.i:
+	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/UtPod.cpp.i
+.PHONY : UtPod.cpp.i
 
-utPod_driver.s: utPod_driver.cpp.s
+UtPod.s: UtPod.cpp.s
 
-.PHONY : utPod_driver.s
+.PHONY : UtPod.s
 
 # target to generate assembly for a file
-utPod_driver.cpp.s:
-	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/utPod_driver.cpp.s
-.PHONY : utPod_driver.cpp.s
+UtPod.cpp.s:
+	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/UtPod.cpp.s
+.PHONY : UtPod.cpp.s
+
+UtPod_Driver.obj: UtPod_Driver.cpp.obj
+
+.PHONY : UtPod_Driver.obj
+
+# target to build an object file
+UtPod_Driver.cpp.obj:
+	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/UtPod_Driver.cpp.obj
+.PHONY : UtPod_Driver.cpp.obj
+
+UtPod_Driver.i: UtPod_Driver.cpp.i
+
+.PHONY : UtPod_Driver.i
+
+# target to preprocess a source file
+UtPod_Driver.cpp.i:
+	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/UtPod_Driver.cpp.i
+.PHONY : UtPod_Driver.cpp.i
+
+UtPod_Driver.s: UtPod_Driver.cpp.s
+
+.PHONY : UtPod_Driver.s
+
+# target to generate assembly for a file
+UtPod_Driver.cpp.s:
+	$(MAKE) -f CMakeFiles\utPod.dir\build.make CMakeFiles/utPod.dir/UtPod_Driver.cpp.s
+.PHONY : UtPod_Driver.cpp.s
 
 # Help Target
 help:
@@ -215,12 +215,12 @@ help:
 	@echo ... Song.obj
 	@echo ... Song.i
 	@echo ... Song.s
-	@echo ... utPod.obj
-	@echo ... utPod.i
-	@echo ... utPod.s
-	@echo ... utPod_driver.obj
-	@echo ... utPod_driver.i
-	@echo ... utPod_driver.s
+	@echo ... UtPod.obj
+	@echo ... UtPod.i
+	@echo ... UtPod.s
+	@echo ... UtPod_Driver.obj
+	@echo ... UtPod_Driver.i
+	@echo ... UtPod_Driver.s
 .PHONY : help
 
 

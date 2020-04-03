@@ -70,46 +70,46 @@ CMakeFiles/utPod.dir/Song.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utPod.dir/Song.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\Song.cpp" -o CMakeFiles\utPod.dir\Song.cpp.s
 
-CMakeFiles/utPod.dir/utPod.cpp.obj: CMakeFiles/utPod.dir/flags.make
-CMakeFiles/utPod.dir/utPod.cpp.obj: CMakeFiles/utPod.dir/includes_CXX.rsp
-CMakeFiles/utPod.dir/utPod.cpp.obj: ../utPod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/utPod.dir/utPod.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\utPod.dir\utPod.cpp.obj -c "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\utPod.cpp"
+CMakeFiles/utPod.dir/UtPod.cpp.obj: CMakeFiles/utPod.dir/flags.make
+CMakeFiles/utPod.dir/UtPod.cpp.obj: CMakeFiles/utPod.dir/includes_CXX.rsp
+CMakeFiles/utPod.dir/UtPod.cpp.obj: ../UtPod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/utPod.dir/UtPod.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\utPod.dir\UtPod.cpp.obj -c "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\UtPod.cpp"
 
-CMakeFiles/utPod.dir/utPod.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utPod.dir/utPod.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\utPod.cpp" > CMakeFiles\utPod.dir\utPod.cpp.i
+CMakeFiles/utPod.dir/UtPod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utPod.dir/UtPod.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\UtPod.cpp" > CMakeFiles\utPod.dir\UtPod.cpp.i
 
-CMakeFiles/utPod.dir/utPod.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utPod.dir/utPod.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\utPod.cpp" -o CMakeFiles\utPod.dir\utPod.cpp.s
+CMakeFiles/utPod.dir/UtPod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utPod.dir/UtPod.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\UtPod.cpp" -o CMakeFiles\utPod.dir\UtPod.cpp.s
 
-CMakeFiles/utPod.dir/utPod_driver.cpp.obj: CMakeFiles/utPod.dir/flags.make
-CMakeFiles/utPod.dir/utPod_driver.cpp.obj: CMakeFiles/utPod.dir/includes_CXX.rsp
-CMakeFiles/utPod.dir/utPod_driver.cpp.obj: ../utPod_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/utPod.dir/utPod_driver.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\utPod.dir\utPod_driver.cpp.obj -c "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\utPod_driver.cpp"
+CMakeFiles/utPod.dir/UtPod_Driver.cpp.obj: CMakeFiles/utPod.dir/flags.make
+CMakeFiles/utPod.dir/UtPod_Driver.cpp.obj: CMakeFiles/utPod.dir/includes_CXX.rsp
+CMakeFiles/utPod.dir/UtPod_Driver.cpp.obj: ../UtPod_Driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/utPod.dir/UtPod_Driver.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\utPod.dir\UtPod_Driver.cpp.obj -c "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\UtPod_Driver.cpp"
 
-CMakeFiles/utPod.dir/utPod_driver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utPod.dir/utPod_driver.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\utPod_driver.cpp" > CMakeFiles\utPod.dir\utPod_driver.cpp.i
+CMakeFiles/utPod.dir/UtPod_Driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utPod.dir/UtPod_Driver.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\UtPod_Driver.cpp" > CMakeFiles\utPod.dir\UtPod_Driver.cpp.i
 
-CMakeFiles/utPod.dir/utPod_driver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utPod.dir/utPod_driver.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\utPod_driver.cpp" -o CMakeFiles\utPod.dir\utPod_driver.cpp.s
+CMakeFiles/utPod.dir/UtPod_Driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utPod.dir/UtPod_Driver.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\nu432\OneDrive\Desktop\Spring 2020\EE312\Assignments\utPod\UtPod_Driver.cpp" -o CMakeFiles\utPod.dir\UtPod_Driver.cpp.s
 
 # Object files for target utPod
 utPod_OBJECTS = \
 "CMakeFiles/utPod.dir/Song.cpp.obj" \
-"CMakeFiles/utPod.dir/utPod.cpp.obj" \
-"CMakeFiles/utPod.dir/utPod_driver.cpp.obj"
+"CMakeFiles/utPod.dir/UtPod.cpp.obj" \
+"CMakeFiles/utPod.dir/UtPod_Driver.cpp.obj"
 
 # External object files for target utPod
 utPod_EXTERNAL_OBJECTS =
 
 utPod.exe: CMakeFiles/utPod.dir/Song.cpp.obj
-utPod.exe: CMakeFiles/utPod.dir/utPod.cpp.obj
-utPod.exe: CMakeFiles/utPod.dir/utPod_driver.cpp.obj
+utPod.exe: CMakeFiles/utPod.dir/UtPod.cpp.obj
+utPod.exe: CMakeFiles/utPod.dir/UtPod_Driver.cpp.obj
 utPod.exe: CMakeFiles/utPod.dir/build.make
 utPod.exe: CMakeFiles/utPod.dir/linklibs.rsp
 utPod.exe: CMakeFiles/utPod.dir/objects1.rsp
