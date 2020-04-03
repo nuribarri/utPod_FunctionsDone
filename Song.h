@@ -45,6 +45,7 @@ class Song
      void swap(Song &p);
 
      bool operator >(Song const &rhs);
+     bool operator <(Song const &rhs);
      bool operator ==(Song const &rhs);
 
      ~Song();

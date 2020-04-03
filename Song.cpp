@@ -58,8 +58,54 @@ void Song::swap(Song &p) {
 }
 
 bool Song::operator>(Song const &rhs) {
-    return (size > rhs.size);
+
+    if(artist > rhs.artist){
+        return true;
+    } else if (artist > rhs.artist)
+        return false;
+    else{
+        if (title > rhs.title){
+            return true;
+        }
+        else if (title < rhs.title)
+            return false;
+    }
+
+    if(size > rhs.size){
+        return true;
+    }
+    //else if (size < rhs.size){
+            return false;
+
 }
+
+
+
+
+bool Song::operator<(Song const &rhs) {
+
+    if(artist < rhs.artist){
+        return true;
+    } else if (artist < rhs.artist)
+        return false;
+    else{
+        if (title < rhs.title){
+            return true;
+        }
+        else if (title > rhs.title)
+            return false;
+    }
+
+    if(size < rhs.size){
+        return true;
+    }
+    //else if(size > rhs.size){
+
+            return false;
+}
+
+
+
 
 bool Song::operator==(Song const &rhs) {
 
@@ -73,7 +119,9 @@ Song::~Song() {
     cout << "debug - in destructor for " << artist << endl;
 }
 
-    ostream& operator << (ostream& out, const Song &s)
+
+
+ostream& operator << (ostream& out, const Song &s)
     {
         out << s.getArtist() << " (" << s.getTitle() <<
         ") - " << s.getSize();
