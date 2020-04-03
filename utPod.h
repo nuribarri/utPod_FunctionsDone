@@ -20,6 +20,7 @@ class UtPod
       };
       
       SongNode *songs;  //the head pointer
+      SongNode *tsongs; //the tail pointer
       
       int memSize;
    
@@ -32,7 +33,9 @@ class UtPod
       //The user of the class will pass in a size.
       //If the size is greater than MAX_MEMORY or less than or equal to 0,
       //set the size to MAX_MEMORY.
+
       UtPod(int size);
+
 
       /* FUNCTION - int addSong
        * attempts to add a new song to the UtPod
@@ -45,6 +48,7 @@ class UtPod
 
        output parms -
       */
+
 
       int addSong(Song const &s);
 
@@ -74,6 +78,7 @@ class UtPod
       */
 
       void shuffle();
+
 
 
       /* FUNCTION - void showSongList
@@ -125,15 +130,19 @@ class UtPod
 
 
 
+
       /* FUNCTION - int getRemainingMemory
        *  returns the amount of memory available for adding new songs
 
          input parms -
 
          output parms -
+
       */
 
       int getRemainingMemory();
+
+      int numSongs();
 
 
       ~UtPod();
