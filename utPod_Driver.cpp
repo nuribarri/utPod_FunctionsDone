@@ -28,11 +28,17 @@ int main(int argc, char *argv[])
 
     
     t.showSongList();
+
+    t.sortSongList();
+
           
     Song s2("Beatles", "Hey Jude2", 5);
     result = t.addSong(s2);
     cout << "result = " << result << endl;
-    
+
+    t.showSongList();
+    t.shuffle();
+    cout << "first shuffle" << endl;
     t.showSongList();
        
     Song s3("Beatles", "Hey Jude3", 6);
@@ -51,10 +57,29 @@ int main(int argc, char *argv[])
     cout << "number of songs is " << result << endl;
 
     t.showSongList();
-
-    t.clearMemory();
-    
+    t.sortSongList();
+    cout << "sort song list" << endl;
     t.showSongList();
+
+
+    t.showSongList();
+    t.shuffle();
+    cout << "second shuffle" << endl;
+    t.showSongList();
+
+    t.sortSongList();
+    cout << "sort song list" << endl;
+    t.showSongList();
+
+    t.shuffle();
+    cout << "shuffle after sort" << endl;
+    t.showSongList();
+
+    t.sortSongList();
+    cout<< "sort after shuffle"<< endl;
+    t.showSongList();
+   // t.clearMemory();
+
     
     result = t.removeSong(s2);
     cout << "delete result = " << result << endl;

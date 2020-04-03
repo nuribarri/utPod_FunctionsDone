@@ -103,6 +103,8 @@ class UtPod
       */
 
       void sortSongList();
+      bool sortHelper();
+
 
 
       /* FUNCTION - void clearMemory
